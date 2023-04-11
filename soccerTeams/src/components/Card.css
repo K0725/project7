@@ -1,0 +1,47 @@
+.Card {
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(153, 153, 153, 0.497);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+}
+
+.title {
+    color:orange;
+    padding-left:30px;
+    font-size: 24px;
+}
+
+.players {
+    color: orange;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.levels {
+    color: orange;  
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 115px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+
+
+.dot {
+    position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.dot:hover {
+    color: orange;
+}
